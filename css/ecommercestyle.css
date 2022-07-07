@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    background-color: #D61C4E;
+}
+
+#header .navbar{
+    padding: 0;
+}
+
+.mainContainer{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    background-color: #D61C4E;
+}
+
+.Logo{
+    margin-left: 5%;
+    font-size: 35px;
+}
+
+.Logo:hover{
+    border: 3px black;
+    border-style: solid;
+    transition: 3s;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+
+
+.navigationelem{
+    margin-right: 5%;
+}
+
+.listItem:hover{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-weight: 600;
+    border: black;
+    border-style: solid;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.listItem a:hover{
+    color: #fbff00;
+    transition: 0.1s;
+}
+
+.listItem a.active:hover{
+    color: #fbff00;
+}
+
+
+.home-banner-1 ,.home-banner-2{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 90% center;
+    min-height: 735px;
+    position: relative;
+    background-position: right;
+}
+
+.home-banner-1{
+    background-image: url("../images/5.jpg");
+    margin-top: 1%;
+    
+}
+
+.home-banner .home-banner-text .btn{
+    font-weight: 600;
+}
+
+.home-banner-2{
+    background-image: url("../images/3copy.jpg");
+    
+}
+
+.home-banner .home-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+    font-variant: small-caps;
+    color: white;
+}
+
+.home-banner .home-banner-text h1{
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.home-banner-2 .home-banner-text h1{
+    color: black;
+}
+
+.home-banner-1 .home-banner-text h2{
+    background-color: rgb(23, 39, 116);
+    width: 65%;
+    text-align: left;
+    padding-left: 1%;
+}
+
+.home-banner-2 .home-banner-text h2{
+    background-color: #d81347;
+    width: 65%;
+    text-align: left;
+    padding-left: 1%;
+}
+
+.home-banner .home-banner-text button{
+    border-radius: 1%;
+}
+
+.home-banner-1 .home-banner-text button:hover{
+    padding: 15px;
+    font-size: 25px;
+    transition: .2s;
+}
+
+.home-banner .home-banner-text h2 span, .color{
+    color: #fbff00;
+    font-weight: 600;
+}
+
+.leftBtn{
+    width: 10%;
+}
+
+.CAROUSEL .carousel-control-next .fa-circle-arrow-right{
+    color: red;
+}
+
+.first{
+    margin-bottom: 5%;
+}
+
+.imageCollage img{
+    filter: grayscale() brightness(0.7);
+}
+
+.imageCollage img:hover{
+    filter: grayscale(0) brightness(1);
+}
+
+.imageCollage .row1 .Column2 .row1_1 .Column2_1 .btn{
+    margin: 12px 0;
+    padding: 8px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    max-width: 100%;
+}
+
+.imageCollage .row1 .Column2 .row1_1 .Column2_1 .btn-outline-warning:hover{
+    background-color: #fbff00;
+}
+
+#iconColor{
+    color: #fbff00;
+}
